@@ -1,0 +1,49 @@
+import TaelinArena.Game
+import TaelinArena.Geometry
+import TaelinArena.Models
+import TaelinArena.HeroIds
+
+enum
+| KENKO_IDLE
+| KENKO_GOLEM_BLAST
+| KENKO_JADE_TONING_SHOT
+| KENKO_ONYX_FURY_HIT
+| KENKO_AMETHYST_SHIELD
+| KENKO_DASH
+| KENKO_TAUNT
+
+kenko_tick(self: Thing) : Thing
+  let delay = 2
+  let self = self <= thing(mov = 5)
+
+  case self |thing switch self.act
+
+  |KENKO_IDLE
+    case self.wlk
+    | true  => animate(self, delay, 1, KENKO_WALK_000, 6)
+    | false => animate(self, delay, 1, KENKO_IDLE_000, 7)
+
+  |KENKO_GOLEM_BLAST
+    animate(self, delay, 0, KENKO_GOLEM_BLAST_000, 14)
+
+  |KENKO_JADE_TONING_SHOT
+    animate(self, delay, 0, KENKO_JADE_TONING_SHOT_000, 8)
+
+  |KENKO_ONYX_FURY_HIT
+    animate(self, delay, 0, KENKO_ONYX_FURY_HIT_000, 21)
+
+  |KENKO_AMETHYST_SHIELD
+    animate(self, delay, 0, KENKO_AMETHYST_SHIELD_000, 26)
+
+  |KENKO_DASH
+    let self = animate(self, 2, 0, KENKO_DASH_000, 12)
+    let self = dash(self, 10, 0, 4)
+    self
+
+  |KENKO_TAUNT
+    animate(self, delay, 0, KENKO_TAUNT_000, 7)
+
+  else self
+
+kenko_hero : Hero
+  hero(kenko_tick)

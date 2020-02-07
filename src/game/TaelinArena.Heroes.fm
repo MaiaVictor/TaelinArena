@@ -7,6 +7,7 @@ import TaelinArena.Heroes.Shao
 import TaelinArena.Heroes.Min
 import TaelinArena.Heroes.Zoio
 import TaelinArena.Heroes.Teichi
+import TaelinArena.Heroes.Kenko
 
 get_hero_by_hid(hid: HeroId) : Hero
   switch hid
@@ -16,4 +17,5 @@ get_hero_by_hid(hid: HeroId) : Hero
   |MIN_HERO min_hero
   |ZOIO_HERO zoio_hero
   |TEICHI_HERO teichi_hero
+  |KENKO_HERO kenko_hero
   else mikegator_hero

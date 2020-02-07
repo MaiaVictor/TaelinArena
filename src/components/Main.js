@@ -22,6 +22,7 @@ var HERO_ID = {
   min: TA.MIN_HERO,
   zoio: TA.ZOIO_HERO,
   teichi: TA.TEICHI_HERO,
+  kenko: TA.KENKO_HERO
 };
 var DEBUG_HERO_ID = 0;
 for (var hero_name in HERO_ID) {
