@@ -345,7 +345,8 @@ var hero_id = {
   // kenko: TA.KENKO_THING,
   // sr_madruga: TA.SR_MADRUGA_THING,
   bleskape: TA.BLESKAPE_THING,
-  kakashi: TA.KAKASHI_THING
+  kakashi: TA.KAKASHI_THING,
+  finn: TA.FINN_THING
 };
 
 var hero_name = {
@@ -361,7 +362,8 @@ var hero_name = {
   // [TA.KENKO_THING]: "Kenko",
   // [TA.SR_MADRUGA]: "Sr. Madruga",
   [TA.BLESKAPE_THING]: "Bleskape",
-  [TA.KAKASHI_THING]: "Kakashi"
+  [TA.KAKASHI_THING]: "Kakashi",
+  [TA.FINN_THING]: "Finn"
 };
 
 module.exports = {
