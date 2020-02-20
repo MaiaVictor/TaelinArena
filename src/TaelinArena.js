@@ -333,25 +333,33 @@ function exec_command(inp, game) {
 }
 
 var hero_id = {
-  mikegator: TA.MIKEGATOR_THING,
-  shao: TA.SHAO_THING,
-  min: TA.MIN_THING,
-  zoio: TA.ZOIO_THING,
-  teichi: TA.TEICHI_THING,
-  benfix: TA.BENFIX_THING,
-  ray: TA.RAY_THING,
-  tupitree: TA.TUPITREE_THING,
-  tophoro: TA.TOPHORO_THING,
-  kenko: TA.KENKO_THING,
-  sr_madruga: TA.SR_MADRUGA_THING
+  // mikegator: TA.MIKEGATOR_THING,
+  // shao: TA.SHAO_THING,
+  // min: TA.MIN_THING,
+  // zoio: TA.ZOIO_THING,
+  // teichi: TA.TEICHI_THING,
+  // benfix: TA.BENFIX_THING,
+  // ray: TA.RAY_THING,
+  // tupitree: TA.TUPITREE_THING,
+  // tophoro: TA.TOPHORO_THING,
+  // kenko: TA.KENKO_THING,
+  // sr_madruga: TA.SR_MADRUGA_THING,
+  bleskape: TA.BLESKAPE_THING
 };
 
 var hero_name = {
-  [TA.MIKEGATOR_THING]: "MikeGator",
-  [TA.SHAO_THING]: "Shao",
-  [TA.MIN_THING]: "Min",
-  [TA.ZOIO_THING]: "Zoio",
-  [TA.TEICHI_THING]: "Teichi",
+  // [TA.MIKEGATOR_THING]: "MikeGator",
+  // [TA.SHAO_THING]: "Shao",
+  // [TA.MIN_THING]: "Min",
+  // [TA.ZOIO_THING]: "Zoio",
+  // [TA.TEICHI_THING]: "Teichi",
+  // [TA.BENFIX_THING]: "Ben-fix",
+  // [TA.RAY_THING]: "Ray",
+  // [TA.TUPITREE_THING]: "Tupitree",
+  // [TA.TOPHORO_THING]: "Tophoro",
+  // [TA.KENKO_THING]: "Kenko",
+  // [TA.SR_MADRUGA]: "Sr. Madruga",
+  [TA.BLESKAPE_THING]: "Bleskape"
 };
 
 module.exports = {

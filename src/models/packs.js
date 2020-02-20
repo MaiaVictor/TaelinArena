@@ -1,46 +1,46 @@
 module.exports = {
-  "benfix": {
+  "blastoise": {
     "from": 0,
-    "til": 111
+    "til": 164
+  },
+  "bleskape": {
+    "from": 164,
+    "til": 266
+  },
+  "finn": {
+    "from": 266,
+    "til": 375
+  },
+  "kakashi": {
+    "from": 375,
+    "til": 499
   },
   "kenko": {
-    "from": 111,
-    "til": 284
+    "from": 499,
+    "til": 672
   },
-  "mikegator": {
-    "from": 284,
-    "til": 356
+  "pichu": {
+    "from": 672,
+    "til": 775
   },
-  "min": {
-    "from": 356,
-    "til": 423
+  "pikachu": {
+    "from": 775,
+    "til": 880
   },
-  "ray": {
-    "from": 423,
-    "til": 497
+  "raichu": {
+    "from": 880,
+    "til": 983
   },
-  "shao": {
-    "from": 497,
-    "til": 604
-  },
-  "sr_madruga": {
-    "from": 604,
-    "til": 726
-  },
-  "teichi": {
-    "from": 726,
-    "til": 856
+  "squirtle": {
+    "from": 983,
+    "til": 1115
   },
   "tophoro": {
-    "from": 856,
-    "til": 958
+    "from": 1115,
+    "til": 1217
   },
-  "tupitree": {
-    "from": 958,
-    "til": 1106
-  },
-  "zoio": {
-    "from": 1106,
-    "til": 1205
+  "wartortle": {
+    "from": 1217,
+    "til": 1355
   }
 }
