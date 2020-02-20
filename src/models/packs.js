@@ -13,34 +13,34 @@ module.exports = {
   },
   "kakashi": {
     "from": 375,
-    "til": 499
+    "til": 505
   },
   "kenko": {
-    "from": 499,
-    "til": 672
+    "from": 505,
+    "til": 678
   },
   "pichu": {
-    "from": 672,
-    "til": 775
+    "from": 678,
+    "til": 781
   },
   "pikachu": {
-    "from": 775,
-    "til": 880
+    "from": 781,
+    "til": 886
   },
   "raichu": {
-    "from": 880,
-    "til": 983
+    "from": 886,
+    "til": 989
   },
   "squirtle": {
-    "from": 983,
-    "til": 1115
+    "from": 989,
+    "til": 1121
   },
   "tophoro": {
-    "from": 1115,
-    "til": 1217
+    "from": 1121,
+    "til": 1223
   },
   "wartortle": {
-    "from": 1217,
-    "til": 1355
+    "from": 1223,
+    "til": 1361
   }
 }

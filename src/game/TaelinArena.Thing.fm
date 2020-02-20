@@ -16,6 +16,7 @@ import TaelinArena.ModelIds
 // import TaelinArena.Thing.Kenko
 // import TaelinArena.Thing.SrMadruga
 import TaelinArena.Thing.Bleskape
+import TaelinArena.Thing.Kakashi
 
 get_thing_fun(tid: ThingId) : Thing -> Thing
   switch tid
@@ -34,6 +35,7 @@ get_thing_fun(tid: ThingId) : Thing -> Thing
   // |KENKO_THING kenko_fun
   // |SR_MADRUGA_THING sr_madruga_fun
   |BLESKAPE_THING bleskape_fun
+  |KAKASHI_THING kakashi_fun
   else bleskape_fun
 
 init_thing(tid: ThingId) : Thing
