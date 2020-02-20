@@ -10,7 +10,7 @@ enum
 | BLESKAPE_DASH
 
 bleskape_fun(self: Thing) : Thing
-  let self = self <= thing(mov = 3)
+  let self = self <= thing(mov = 4)
 
   case self |thing switch self.act
 
@@ -29,16 +29,18 @@ bleskape_fun(self: Thing) : Thing
 
   // Right
   |BLESKAPE_DEFENSE_MODE
-    animate(self, 0, BLESKAPE_DEFENSE_MODE_000, 3, 9)
+    animate(self, 1, BLESKAPE_DEFENSE_MODE_000, 3, 18)
 
   // Space
   |BLESKAPE_SUPREME_PUNCH_SEQUENCE
-    animate(self, 1, BLESKAPE_SUPREME_PUNCH_SEQUENCE_000, 25, 25)
+    animate(self, 1, BLESKAPE_SUPREME_PUNCH_SEQUENCE_000, 25, 75)
 
   | BLESKAPE_TAUNT
     animate(self, 0, BLESKAPE_TAUNT_000, 10, 20)
 
   | BLESKAPE_DASH
-   animate(self, 1, BLESKAPE_DASH_000, 15, 30)
+    let self = animate(self, 1, BLESKAPE_DASH_000, 15, 30)
+    let self = dash(self, 8, 15, 25)
+    self
 
   else self
