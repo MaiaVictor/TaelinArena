@@ -1,46 +1,30 @@
 module.exports = {
-  "blastoise": {
-    "from": 0,
-    "til": 164
-  },
   "bleskape": {
-    "from": 164,
-    "til": 266
+    "from": 0,
+    "til": 102
   },
   "finn": {
-    "from": 266,
-    "til": 375
+    "from": 102,
+    "til": 211
   },
   "kakashi": {
-    "from": 375,
-    "til": 505
+    "from": 211,
+    "til": 341
   },
   "kenko": {
-    "from": 505,
-    "til": 678
+    "from": 341,
+    "til": 514
   },
-  "pichu": {
-    "from": 678,
-    "til": 781
-  },
-  "pikachu": {
-    "from": 781,
-    "til": 886
-  },
-  "raichu": {
-    "from": 886,
-    "til": 989
-  },
-  "squirtle": {
-    "from": 989,
-    "til": 1121
+  "ppg": {
+    "from": 514,
+    "til": 676
   },
   "tophoro": {
-    "from": 1121,
-    "til": 1223
+    "from": 676,
+    "til": 778
   },
-  "wartortle": {
-    "from": 1223,
-    "til": 1361
+  "zagatur": {
+    "from": 778,
+    "til": 866
   }
 }
